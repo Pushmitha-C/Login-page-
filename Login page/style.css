@@ -1,0 +1,79 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.forgot-password-link {
+    margin-top: 20px;
+}
+
+.logo {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.banner {
+    background-image: url('prodPhotos/banner.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.banner h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: darkred;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+}
+
+.password-input {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.toggle-password i {
+    color: #ccc;
+}
+
+.toggle-password i:hover {
+    color: #333;
+}
